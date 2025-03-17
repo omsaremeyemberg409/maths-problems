@@ -1,0 +1,2 @@
+
+`<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <title>Math Problems</title> </head> <body> <h1>Mathematics Practice Questions</h1> <p id="problem"></p> <script src="math.js"></script> <script> const problems = ["2+2", "5-3", "7*8"]; const randomProblem = problems[Math.floor(Math.random() * problems.length)]; document.getElementById("problem").innerHTML = `${randomProblem}`; </script> </body> </html>`
